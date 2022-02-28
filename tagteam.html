@@ -7,18 +7,29 @@
       <title>TagTeamSigns Redesign</title>
       <link rel= "stylesheet" href="style.css"/>
       <link rel= "normalize" href="normalize.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
     <!--Nav Bar- Goes to Bottom for Real Navigation-->
-    <header>
-      <div class="navbar">
-        <a href="index.html"><p class="logo">LIANNA WANG</p></a>
-        <nav>
-          <a href="#navigation"><img src="pictures/menu.png" class="menu-icon" alt="menu-icon"></a>
-        </nav>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Lianna Wang</a>
+      <div class="nav-right">
+          <a href="index.html">Portfolio</a>
+          <a href="about.html">About</a>
+          <a href="resume.html">Resume</a> 
       </div>
-    </header>
+      
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  
+    
+    <div style="padding-left:16px">
+    </div>
+    
 
     <!--class "text" lets all article text have padding for convenience-->
     <main class="text">
@@ -71,5 +82,6 @@
       <a href="https://www.linkedin.com/in/lianna-wang-20b5b3206"><img src="pictures/linkedin.png" alt="linkedin-icon"></a>
       <a href = "mailto: lmw364@drexel.edu"><img src="pictures/mail icon purp.png" alt="mail-icon"></a>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

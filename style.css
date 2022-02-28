@@ -21,6 +21,18 @@
   @font-face {
       font-family: 'Allenoire';
       src: url('fonts/Allenoire\ Font.otf');}
+
+      @font-face {
+        font-family: 'Moderat';
+        src: url('fonts/Moderat-Regular.ttf');}
+
+    
+        h1 {
+            font-family: Allenoire, Georgia, 'Times New Roman', Times, serif;
+           font-size: 50px;
+           color: #6A217D;
+           font-weight: 100;
+         }
   
   .hero {
       position: relative;
@@ -34,7 +46,7 @@
    width: 100%;
   
   }
-  h1 {
+  .hero-overlay h1 {
       font-family: Allenoire, Georgia, 'Times New Roman', Times, serif;
      font-size: 5.6vw;
      transform: translateY(17.5vw);
@@ -187,8 +199,8 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #4e2759;
+    color: white;
   }
   
   .topnav a.active {
@@ -202,12 +214,16 @@
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
+    .nav-right a {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
     .topnav a {
         font-size: 20px;
+    }
+    h2{
+        font-size: 35px;
     }
   }
   
@@ -234,3 +250,14 @@
   .nav-right {
       float: right;
   }
+  p{
+      font-family: 'Moderat';
+      color: #6A217D;
+  }
+
+  h3{
+      font-family: 'Allenoire';
+      font-weight: 100;
+      color: #6A217D;
+  }
+
