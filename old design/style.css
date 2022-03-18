@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  /*.vl {
+      border-left: 6px solid #6A217D;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }*/
+  
+  .line{
+    transform: translateY(36vw);
+    border-left: .45vw solid #6A217D;
+    height: 20vw;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 150px;
+    top: 0;
+  }
+  
+  body{
+      background-color:#FFF;
+      margin:0;
+      padding:0;
+  }
+  @font-face {
+      font-family: 'Allenoire';
+      src: url('fonts/Allenoire\ Font.otf');}
+
+      @font-face {
+        font-family: 'Moderat';
+        src: url('fonts/Moderat-Regular.ttf');}
+
+    
+        h1 {
+            font-family: Allenoire, Georgia, 'Times New Roman', Times, serif;
+           font-size: 50px;
+           color: #6A217D;
+           font-weight: 100;
+         }
+  
+  .hero {
+      position: relative;
+      
+  }
+  
+  .hero-overlay {
+   text-align: center;
+   position: absolute;
+   z-index: 0;
+   width: 100%;
+  
+  }
+  .hero-overlay h1 {
+      font-family: Allenoire, Georgia, 'Times New Roman', Times, serif;
+     font-size: 5.6vw;
+     transform: translateY(17.5vw);
+     color: #6A217D;
+     font-weight: 100;
+   }
+   h2{
+      font-family: Allenoire, Georgia, 'Times New Roman', Times, serif;
+      font-size: 4.4vw;
+      color: #6A217D;
+      font-weight: 75;
+   }
+  .hero-image {
+   display: block;
+   z-index:-1;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+  }
+  
+  .nav-right a {
+    font-family: Moderat;
+  }
+
+  .logo a{
+    font-family: Allenoire;
+  }
+  
+  
+  
+  /* POSITIONING */
+  header{
+    position:relative;
+  }
+  
+  .intro {
+    padding: 0rem 2rem 1.5rem;
+    width:100%;
+  }
+  
+  li{
+    display: list-item;
+  }
+  
+  h3.contact{
+    padding-bottom: 14px;
+  }
+  
+  
+  
+
+  .navbar a{
+    text-decoration: none;
+  }
+  
+  .menu-icon{
+    margin-top: 2px;
+    height: 1.18rem;
+    float:right;
+  }
+  
+  /* WORK */
+  h1.work{
+    padding-bottom: 1.25rem;
+  }
+  
+  .work{
+    text-align: center;
+    width:100%;
+  }
+  
+  .work p{
+    padding-bottom: 2.5rem;
+    width:100%;
+    margin:0rem auto;
+  }
+  
+  .work img{
+    max-width: 19rem;
+    max-height: 19rem;
+    display: block;
+    margin: 0rem auto;
+    padding-bottom: 1.25rem;
+    width:100%;
+  }
+  
+  .work h3{
+    padding-bottom: .1rem;
+    width: 100%;
+  }
+  
+  
+  .work a {
+    color:black;
+    text-decoration: none;
+  }
+  
+  .work a:visited { 
+    text-decoration: none; 
+    color: black; 
+   }
+  
+  
+  /* INNER PAGES */
+  main.text{
+    padding:0rem 2rem 2rem; 
+  }
+  
+  .text ul li{
+    font-family: Moderat, Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    width:100%;
+  }
+  
+  .text img{
+    padding-bottom: 1.125rem;
+  }
+  
+  /* FOOTER */
+  footer{
+    text-align: center;
+    width:100%;
+    background-color: #EFEFEF;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: #4e2759;
+  }
+  
+  footer img{
+    height: 4.06rem;
+    padding: .875rem;
+    padding-top: .93rem;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #FEFAFA;
+    font-family: Allenoire, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 50;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #6A217D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vw;
+  }
+  .topnav{
+    border: #4e2759;
+    border-width: 3px;
+  }
+  .topnav a:hover {
+    background-color: #FEFAFA;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #FEFAFA;
+    color: #6A217D;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .nav-right a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav a {
+        font-size: 20px;
+    }
+    h2{
+        font-size: 35px;
+    }
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+ 
+  .nav-right {
+      float: right;
+  }
+  p{
+      font-family: 'Moderat';
+      color: #6A217D;
+  }
+
+  h3{
+      font-family: 'Allenoire';
+      font-weight: 100;
+      color: #6A217D;
+  }
+
