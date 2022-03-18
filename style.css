@@ -34,7 +34,7 @@
 
 h1 {
     font-family: PoppinsBold, Arial, Helvetica, sans-serif;
-    font-size: 31px;
+    font-size: 30px;
     color: #3B3A3A;
     font-weight: 100;
     margin: 0px;
@@ -89,12 +89,12 @@ h1.work{
   max-width: 500px;
   display: block;
   margin: 0rem auto;
-  padding-bottom: 1.25rem;
   width:100%;
+  -webkit-filter: drop-shadow( 0px 5px 5px rgba(0, 0, 0, 0.05));
+  filter: drop-shadow( 0px 5px 5px  rgba(0, 0, 0, 0.05)) 
 }
 
 .work h3{
-  padding-bottom: .1rem;
   width: 100%;
 }
 
@@ -112,17 +112,23 @@ h1.work{
 
 /* INNER PAGES */
 main.text{
-  padding:0rem 2rem 2rem; 
+  /* padding:100px 240px 0rem 0rem;  */
+  margin: auto 2rem;
+  margin: 0 auto;
+  margin-top:100px;
+  max-width: 850px;
+  /* margin-left:200px; */
 }
 
 .text ul li{
-  font-family: Moderat, Georgia, serif;
+  font-family: Poppins, Georgia, serif;
   font-size: 1.125rem;
   line-height: 2rem;
   width:100%;
 }
 
 .text img{
+  /* width: 100px; */
   padding-bottom: 1.125rem;
 }
 
@@ -158,25 +164,27 @@ nav a {
 
 
 
-nav a.active {
-  color: #B0B0E7;
-  font-family: PoppinsBold;
-}
-nav a:hover {
-  color: #7B61FF;
-}
+nav a.active {font-family: PoppinsBold;}
+
+nav a.blue{color: #A1CEEC;}
+nav a.purple{color: #B0B0E7;}
+nav a.green{color: #CFD248;}
+nav a.pink{color: #E4B4DC;}
+
+nav a:hover {color: #7B61FF;}
+svg.blue{fill: #A1CEEC;}
+svg.purple{fill: #B0B0E7;}
+svg.green{fill: #CFD248;}
+svg.pink{fill: #E4B4DC;}
 
 svg{
   width: 40px;
   height: 40px;
   float: left;
-  fill: #B0B0E7;
+  /* fill: #B0B0E7; */
   margin-right:.8rem;
 }
-svg:hover {
-  fill: #7B61FF;
-  
-}
+
 
 
 nav .icon {
@@ -189,17 +197,16 @@ nav .icon {
 }
 p{
     font-family: 'Poppins';
-    color: #838383;
-    font-weight: 100px;
+    color: #787777;
 }
 
 h3{
-    font-family: 'Allenoire';
-    font-weight: 100;
-    color: #6A217D;
+    font-family: 'PoppinsSemiBold';
+    color: #3B3A3A;
+    font-size: 25px;
 }
 
-.logo a{
+a.logo{
   font-family: PoppinsBold;
   color: #3B3A3A;
 }
@@ -228,7 +235,7 @@ h3{
   margin:auto;
 }
 
-.text {
+.intro .text {
   margin: auto 2rem;
   max-width: 506px;
 }
@@ -266,7 +273,7 @@ p{
     margin-left: auto;
     margin-right: auto;
   }
-  .text {
+  .intro .text {
     margin: auto;
     max-width: 506px;
   }
@@ -303,7 +310,7 @@ p{
     display: block;
     text-align: right;
   }
-  nav.responsive .logo a{
+  nav.responsive a.logo{
     text-align: left;
   }
   h1{
@@ -311,7 +318,7 @@ p{
     /* font-size: 4.3vw; */
   }
 
-  .text{
+  .intro .text{
     max-width: 444px;
   }
   /* h2{
@@ -352,24 +359,24 @@ p{
     display: block;
     text-align: right;
   }
-  nav.responsive .logo a{
+  nav.responsive a.logo{
     text-align: left;
   }
   h1{
-    font-size: 32px;
+    font-size: 26px;
   }
   h2{
-    font-size: 28px;
+    font-size: 22px;
 }
-.intro p{
-  font-size: 22px;
-}
+ .intro p{
+  font-size: 16px;
+} 
 
 .mobile-break{
   display: block;
 }
-.text{
-  max-width: 337px;
+.intro .text{
+  max-width: 295px;
 }
 
 .nav-right a {padding: 20px 0px 0px 0px;}
