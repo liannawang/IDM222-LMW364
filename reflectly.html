@@ -13,60 +13,58 @@
 
   <body>
     <nav id="nav" class="nav">
-      <img src="pictures/menu.png" class="icon" onclick="menuClick()">
+      <img src="pictures/menu.png" class="nav__icon" onclick="menuClick()">
         <a href="index.html" class="logo">
-          <svg xmlns="http://www.w3.org/2000/svg" class="blue" viewBox="0 0 100.29 103.47"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M88,6.5c-.1,1.12-.22,2.24-.31,3.36-.25,3.48.82,6.65,2.14,9.81a50.81,50.81,0,0,1,2.77,8c.83,3.57-.44,6.71-2.87,9.41-6.59,7.33-14.55,12.2-24.39,13.79-2.22.36-4.39,1-6.58,1.54-1.57.38-2.18.08-3-1.35a5.43,5.43,0,0,0-1.36-1.64,3,3,0,0,1-1.19-3.15c.34-2.12.84-4.23,1.06-6.36.42-3.9.7-7.82,1-11.73a21.09,21.09,0,0,1,2-8A14,14,0,0,1,61.5,15,113,113,0,0,1,82.19,3.18a10.15,10.15,0,0,1,3.38-.65c1.53-.08,2.19.61,2.3,2.12,0,.61,0,1.23,0,1.84Z"/><path class="cls-1" d="M71.27,51.35c9.77-.13,17.12,4.38,22.87,11.92A38.24,38.24,0,0,1,99.6,73c1.58,4.21.49,6.08-3.84,7.1C90.61,81.27,85.52,82.69,80.4,84c-1.36.34-2.75.52-4.12.79a8.76,8.76,0,0,1-7.27-2,23.46,23.46,0,0,1-8-11.89,75.91,75.91,0,0,1-1.8-7.76c-.41-2-1-3.81-3-4.88A1.6,1.6,0,0,1,55.94,56,6.24,6.24,0,0,1,58.23,54,33.37,33.37,0,0,1,71.27,51.35Z"/><path class="cls-1" d="M58.2,77.14c0,5.71-.78,10.54-4,14.62a21.8,21.8,0,0,1-3.53,3.39c-2.23,1.8-4.58,3.46-6.83,5.23a13.78,13.78,0,0,0-2,2.06c-.85,1-1.83,1.38-3,.63a10.86,10.86,0,0,1-2.79-2.52c-3.84-5.29-7.1-10.82-7.88-17.53C27.7,78.14,28.19,73.6,31,69.4c2.54-3.8,5.19-7.47,8.82-10.31a26.82,26.82,0,0,1,3.23-1.94,1.49,1.49,0,0,1,1.71.15,19.78,19.78,0,0,0,2.56,1.51,4.58,4.58,0,0,0,3.85.09,7.71,7.71,0,0,1,2.95-.37c.37,0,.93.65,1,1.08.93,4.27,1.84,8.54,2.63,12.83A41.26,41.26,0,0,1,58.2,77.14Z"/><path class="cls-1" d="M45.2,49.65c-1.71,1.37-1.4,3.23-1.46,5.09a14,14,0,0,1-1.81.17,11.6,11.6,0,0,0-5.74,1.66c-2.63,1.38-5.29,2.7-7.88,4.14a14.74,14.74,0,0,1-11.72,1A68.45,68.45,0,0,1,9.33,59C7.1,58.06,5,56.94,2.72,56c-3-1.26-3.3-2-2-5a21.42,21.42,0,0,1,5.49-7.2c4.28-3.91,9.06-6.9,14.86-8a13.54,13.54,0,0,1,8,.74A34.44,34.44,0,0,1,44.42,48.49C44.68,48.85,44.91,49.22,45.2,49.65Z"/><path class="cls-1" d="M53.47,31a75.37,75.37,0,0,1-1.71,13.75c-.1.4-.23.79-.36,1.17-.72,2.06-1.49,2.64-3.65,2.49a2,2,0,0,1-1.38-1c-1.36-3.35-3.92-5.58-6.66-7.75A27,27,0,0,1,29.22,20.1,41.32,41.32,0,0,1,31.09,4.84C31.72,2.7,32.8.91,35.19.25a3.91,3.91,0,0,1,3.44.3,19.68,19.68,0,0,1,3,2.41C47,8.29,51,14.42,52.39,21.94,53,24.91,53.12,28,53.47,31Z"/><path class="cls-1" d="M50,49.27c.24,0,.47,0,.71.08,2.51.41,4.25,2.22,4.06,4.22a4.53,4.53,0,0,1-5,3.73,6.84,6.84,0,0,1-2.62-.73,3.56,3.56,0,0,1-.34-6.27,16.26,16.26,0,0,1,3.07-1.23Z"/></g></g></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="color--blue" viewBox="0 0 100.29 103.47"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M88,6.5c-.1,1.12-.22,2.24-.31,3.36-.25,3.48.82,6.65,2.14,9.81a50.81,50.81,0,0,1,2.77,8c.83,3.57-.44,6.71-2.87,9.41-6.59,7.33-14.55,12.2-24.39,13.79-2.22.36-4.39,1-6.58,1.54-1.57.38-2.18.08-3-1.35a5.43,5.43,0,0,0-1.36-1.64,3,3,0,0,1-1.19-3.15c.34-2.12.84-4.23,1.06-6.36.42-3.9.7-7.82,1-11.73a21.09,21.09,0,0,1,2-8A14,14,0,0,1,61.5,15,113,113,0,0,1,82.19,3.18a10.15,10.15,0,0,1,3.38-.65c1.53-.08,2.19.61,2.3,2.12,0,.61,0,1.23,0,1.84Z"/><path class="cls-1" d="M71.27,51.35c9.77-.13,17.12,4.38,22.87,11.92A38.24,38.24,0,0,1,99.6,73c1.58,4.21.49,6.08-3.84,7.1C90.61,81.27,85.52,82.69,80.4,84c-1.36.34-2.75.52-4.12.79a8.76,8.76,0,0,1-7.27-2,23.46,23.46,0,0,1-8-11.89,75.91,75.91,0,0,1-1.8-7.76c-.41-2-1-3.81-3-4.88A1.6,1.6,0,0,1,55.94,56,6.24,6.24,0,0,1,58.23,54,33.37,33.37,0,0,1,71.27,51.35Z"/><path class="cls-1" d="M58.2,77.14c0,5.71-.78,10.54-4,14.62a21.8,21.8,0,0,1-3.53,3.39c-2.23,1.8-4.58,3.46-6.83,5.23a13.78,13.78,0,0,0-2,2.06c-.85,1-1.83,1.38-3,.63a10.86,10.86,0,0,1-2.79-2.52c-3.84-5.29-7.1-10.82-7.88-17.53C27.7,78.14,28.19,73.6,31,69.4c2.54-3.8,5.19-7.47,8.82-10.31a26.82,26.82,0,0,1,3.23-1.94,1.49,1.49,0,0,1,1.71.15,19.78,19.78,0,0,0,2.56,1.51,4.58,4.58,0,0,0,3.85.09,7.71,7.71,0,0,1,2.95-.37c.37,0,.93.65,1,1.08.93,4.27,1.84,8.54,2.63,12.83A41.26,41.26,0,0,1,58.2,77.14Z"/><path class="cls-1" d="M45.2,49.65c-1.71,1.37-1.4,3.23-1.46,5.09a14,14,0,0,1-1.81.17,11.6,11.6,0,0,0-5.74,1.66c-2.63,1.38-5.29,2.7-7.88,4.14a14.74,14.74,0,0,1-11.72,1A68.45,68.45,0,0,1,9.33,59C7.1,58.06,5,56.94,2.72,56c-3-1.26-3.3-2-2-5a21.42,21.42,0,0,1,5.49-7.2c4.28-3.91,9.06-6.9,14.86-8a13.54,13.54,0,0,1,8,.74A34.44,34.44,0,0,1,44.42,48.49C44.68,48.85,44.91,49.22,45.2,49.65Z"/><path class="cls-1" d="M53.47,31a75.37,75.37,0,0,1-1.71,13.75c-.1.4-.23.79-.36,1.17-.72,2.06-1.49,2.64-3.65,2.49a2,2,0,0,1-1.38-1c-1.36-3.35-3.92-5.58-6.66-7.75A27,27,0,0,1,29.22,20.1,41.32,41.32,0,0,1,31.09,4.84C31.72,2.7,32.8.91,35.19.25a3.91,3.91,0,0,1,3.44.3,19.68,19.68,0,0,1,3,2.41C47,8.29,51,14.42,52.39,21.94,53,24.91,53.12,28,53.47,31Z"/><path class="cls-1" d="M50,49.27c.24,0,.47,0,.71.08,2.51.41,4.25,2.22,4.06,4.22a4.53,4.53,0,0,1-5,3.73,6.84,6.84,0,0,1-2.62-.73,3.56,3.56,0,0,1-.34-6.27,16.26,16.26,0,0,1,3.07-1.23Z"/></g></g></svg>
           liannawang
          </a>
        <div class="nav-right">
-           <a href="index.html" class="blue active">portfolio</a>
+           <a href="index.html" class="color--blue active">portfolio</a>
            <a href="about.html">about</a>
-           <a href="resume.html">resume</a> 
+           <a href="resume.html">resume</a>
+      </div>
      </nav>
-    
 
-<div class="container">
+<div class="text__wrapper">
  <!--class "text" lets all article text have padding for convenience-->
- <main class="text"><img src="pictures/reflectly/preview.svg" class="preview" alt="reflectly prototype">
+ <main class="innerpage"><img src="pictures/reflectly/preview.svg" class="innerpage__heroimage" alt="reflectly prototype">
       
-  <p>Using Figma and After Effects, I rebranded and redesigned the micro interactions and design of the app Reflectly for my Interaction Design class.</p>
+  <p class="innerpage__text">Using Figma and After Effects, I rebranded and redesigned the micro interactions and design of the app Reflectly for my Interaction Design class.</p>
 
-  
+  <h3 class="innerpage__subheading">What is Reflectly?</h3>
+  <p class="innerpage__text">Reflectly is a personal journal driven by AI to help you deal with negative thoughts and increase positivity. Reflectly allows the user to vent their thoughts and feelings to improve their mood and practice mindfulness. The users write down how they feel each day in their own mood diary.</p>
+  <p class="innerpage__text">The goal of this project was to rebrand Reflectly and redesign the interface, key task (creating a journal entry), and micro-interactions to match the rebrand.</p>
     
-  <h3>What is Reflectly?</h3>
-  <p>Reflectly is a personal journal driven by AI to help you deal with negative thoughts and increase positivity. Reflectly allows the user to vent their thoughts and feelings to improve their mood and practice mindfulness. The users write down how they feel each day in their own mood diary.</p>
-  <p>The goal of this project was to rebrand Reflectly and redesign the interface, key task (creating a journal entry), and micro-interactions to match the rebrand.</p>
-    
-  <h3>Understanding the User</h3>
-  <p>NEEDS</p>
+  <h3 class="innerpage__subheading">Understanding the User</h3>
+  <p class="innerpage__text">NEEDS</p>
     <ul>
-      <li>help deal with stress</li>
-      <li>practice mindfulness</li>
-      <li>reflect and put life into perspective</li>
+      <li class="innerpage__text--listitem">help deal with stress</li>
+      <li class="innerpage__text--listitem">practice mindfulness</li>
+      <li class="innerpage__text--listitem">reflect and put life into perspective</li>
   </ul>
 
-  <h3>Rebranding Research</h3>
-  <p>After creating a user persona, I did my initial brainstorming on how I wanted to rebrand Reflectly's brand identity.</p>
-  <img src="pictures/reflectly/colors.PNG" class="work" alt="reflectly colors">
-  <p>Since Reflectly's main purpose is to improve the user's mental state and stress levels, I wanted the interface's colors to feel calming and refreshing. After exploring color theory, I chose purples, greens, and blues because they are known to be relaxing colors.</p>
-  <img src="pictures/reflectly/reflectly typo.png" class="work" alt="reflectly typography">
-  <p>Regarding typography, I wanted users to feel comfortable with the app, so I chose the font 210 Hayanpubil for its friendly and conversational look. </p>
-  <p>Lastly, I had to brainstorm some possible names for the new brand. Out of all the names I brainstormed, "Refresh" stood out to me because it felt representative of how I wanted the app to wash away the users' worries and refresh them.</p>
+  <h3 class="innerpage__subheading">Rebranding Research</h3>
+  <p class="innerpage__text">After creating a user persona, I did my initial brainstorming on how I wanted to rebrand Reflectly's brand identity.</p>
+  <img src="pictures/reflectly/colors.PNG" class="innerpage__image" alt="reflectly colors">
+  <p class="innerpage__text">Since Reflectly's main purpose is to improve the user's mental state and stress levels, I wanted the interface's colors to feel calming and refreshing. After exploring color theory, I chose purples, greens, and blues because they are known to be relaxing colors.</p>
+  <img src="pictures/reflectly/reflectly typo.png" class="innerpage__image" alt="reflectly typography">
+  <p class="innerpage__text">Regarding typography, I wanted users to feel comfortable with the app, so I chose the font 210 Hayanpubil for its friendly and conversational look. </p>
+  <p class="innerpage__text">Lastly, I had to brainstorm some possible names for the new brand. Out of all the names I brainstormed, "Refresh" stood out to me because it felt representative of how I wanted the app to wash away the users' worries and refresh them.</p>
 
-  <h3>Sketches</h3>
-  <p>Next, I began ideating the possible wireframes and microinteractions.</p>
-  <img src="pictures/reflectly/sketches bigger.jpg" class="work" alt="reflectly sketches">
+  <h3 class="innerpage__subheading">Sketches</h3>
+  <p class="innerpage__text">Next, I began ideating the possible wireframes and microinteractions.</p>
+  <img src="pictures/reflectly/sketches bigger.jpg" class="innerpage__image" alt="reflectly sketches">
 
-  <h3>Mid-Fidelity Wireframes</h3>
-  <p>To get a more accurate and detailed idea of the design, I created grayscale wireframes for every required page, mapping out the final page layouts.</p>
-  <img src="pictures/reflectly/midfi.png" class="work" alt="reflectly mid fidelity wireframes">
+  <h3 class="innerpage__subheading">Mid-Fidelity Wireframes</h3>
+  <p class="innerpage__text">To get a more accurate and detailed idea of the design, I created grayscale wireframes for every required page, mapping out the final page layouts.</p>
+  <img src="pictures/reflectly/midfi.png" class="innerpage__image" alt="reflectly mid fidelity wireframes">
 
-  <h3>High Fidelity UI</h3>
-  <p>After putting the colors in, I created my High Fidelity wireframes.</p>
-  <img src="pictures/reflectly/hifi.png" class="work" alt="reflectly high fidelity wireframes">
+  <h3 class="innerpage__subheading">High Fidelity UI</h3>
+  <p class="innerpage__text">After putting the colors in, I created my High Fidelity wireframes.</p>
+  <img src="pictures/reflectly/hifi.png" class="innerpage__image" alt="reflectly high fidelity wireframes">
 
-  <h3>Final Prototype</h3>
-  <p>Lastly, I added microinteractions in AfterEffects.</p>
+  <h3 class="innerpage__subheading">Final Prototype</h3>
+  <p class="innerpage__text">Lastly, I added microinteractions in AfterEffects.</p>
   <!--figure out how to make this responsive-->
   <!-- <iframe width="320" height="570" src="https://www.youtube.com/embed/A9qYPifi07k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 </main>
@@ -74,11 +72,11 @@
    
     
 
-    <footer>
-      <h2 class="contact">🤙🏼  let’s get in touch!</h2>
-      <a href="https://www.linkedin.com/in/lianna-wang-20b5b3206"><img src="pictures/linkedin.png" alt="linkedin-icon"></a>
-      <a href = "mailto: lmw364@drexel.edu"><img src="pictures/mail icon purp.png" alt="mail-icon"></a>
-    </footer>
+<footer>
+  <h2 class="footer_header">🤙🏼  let’s get in touch!</h2>
+  <a href="https://www.linkedin.com/in/lianna-wang-20b5b3206"><img src="pictures/linkedin.png" class= "footer__icon" alt="linkedin-icon"></a>
+  <a href = "mailto: lmw364@drexel.edu"><img src="pictures/mail icon purp.png" class= "footer__icon" alt="mail-icon"></a>
+</footer>
     <script src="script.js"></script>
   </body>
 </html>
