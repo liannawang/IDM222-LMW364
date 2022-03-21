@@ -20,7 +20,7 @@
         liannawang
         </a>
       <div class="nav-right">
-          <a href="index.html" class="color--purple active">portfolio</a>
+          <a href="#portfolio" class="color--purple active">portfolio</a>
           <a href="about.html">about</a>
           <a href="resume.html">resume</a>
       </div> 
@@ -28,7 +28,11 @@
 
     <!-- CONTENT STARTS -->
     <div class="intro">
-      <img class="intro__picture" src="pictures/mesat.png">
+      <img srcset="pictures/resized/mesat300.png,
+            pictures/resized/mesat600.png 2x,
+            pictures/resized/mesat900.png 3x"
+     src="pictures/resized/mesat900.png"
+     class="intro__picture" alt="Picture of Lianna">
       <div class="intro__textwrapper">
         <h1 class="intro__header">Hi I'm Lianna,<br class="mobile-break"> UI/UX Designer 👋🏼</h1>
         <p class="intro__text" >I’m a sophomore who's passionate about creating delightful and human-centered user experiences. <br class="mobile-break">Welcome to my design world!</p>
@@ -36,31 +40,59 @@
     </div>
 
     <!--Portfolio Starts-->
-    <div class="text__wrapper">
-      <div class="work" id="portfolio">
+    <div class="text__wrapper" id="portfolio">
+      <div class="work">
         <h2 class="work__heading">view my work below 👇🏼</h2>
         <!-- REFLECTLY CARD -->
         <div class="card">
-          <a href="reflectly.html" ><img src="pictures/reflectly.png" class="card__image" alt="reflectly"></a>
+          <a href="reflectly.html" >
+            <img srcset="pictures/resized/reflectly300.png,
+            pictures/resized/reflectly600.png 2x,
+            pictures/resized/reflectly900.png 3x"
+            src="pictures/reflectly.png"
+            class="card__image" alt="Reflectly">
+            <!-- <img src="pictures/reflectly.png" class="card__image" alt="reflectly"> -->
+          </a>
           <a href="reflectly.html" ><h3 class="card__header">Reflectly Redesign</h3></a>
           <p class="card__text">Interaction Design</p>
         </div>
         <!-- DANCE MAG CARD -->
         <div class="card">
-          <a href="dancemag.html"><img src="pictures/dance mag.png" class="card__image" alt="dancemag"></a> 
+          <a href="dancemag.html">
+            <img srcset="pictures/resized/dance300.png,
+            pictures/resized/dance600.png 2x,
+            pictures/resized/dance900.png 3x"
+            src="pictures/dance mag.png"
+            class="card__image" alt="Dance Magazine">
+            <!-- <img src="pictures/dance mag.png" class="card__image" alt="dancemag"> -->
+          </a> 
           <a href="dancemag.html" class="card__header"><h3 class="card__header">Dance Magazine Redesign</h3></a>
           <p class="card__text">User Interface Design II</p>
         </div>
         <!-- TAGTEAM CARD -->
         <div class="card">
-          <a href="tagteam.html"><img src="pictures/tagteam.png" class="card__image" alt="tagteam"></a>
+          <a href="tagteam.html">
+            <img srcset="pictures/resized/tag300.png,
+            pictures/resized/tag600.png 2x,
+            pictures/resized/tag900.png 3x"
+            src="pictures/tagteam.png"
+            class="card__image" alt="TagTeamSigns">
+            <!-- <img src="pictures/tagteam.png" class="card__image" alt="tagteam"> -->
+          </a>
           <a href="tagteam.html"><h3 class="card__header">TagTeamSigns Redesign</h3></a>
           <p class="card__text">User Interface Design I</p>
         </div>
         <!-- SANRIO CARD -->
         <div class="card">
-          <a href="liannawang.com/idm231"><img src="pictures/sanrio.png" class="card__image" alt="sanrio"></a>
-          <a href="liannawang.com/idm231"><h3 class="card__header">Zodiac Generator</h3></a>
+          <a href="https://liannawang.com/idm231/">
+            <img srcset="pictures/resized/sanrio300.png,
+            pictures/resized/sanrio600.png 2x,
+            pictures/resized/sanrio900.png 3x"
+            src="pictures/sanrio.png"
+            class="card__image" alt="Sanrio">
+            <!-- <img src="pictures/sanrio.png" class="card__image" alt="sanrio"> -->
+          </a>
+          <a href="https://liannawang.com/idm231/"><h3 class="card__header">Zodiac Generator</h3></a>
           <p class="card__text">Web Development</p>
         </div>
       </div>
