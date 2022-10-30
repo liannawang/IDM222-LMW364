@@ -28,11 +28,11 @@ src: url('fonts/Poppins-SemiBold.ttf');}
 :root{
 --background-color: #f9f9f9;
 --text-color-black: #3B3A3A;
---text-color-gray: #9A9A99;
+--text-color-gray: #848482;
 --accent-color-purple: #B0B0E7;
 --accent-color-blue: #A1CEEC;
 --accent-color-pink: #F2A4B7;
---accent-color-green: #CFD248;
+--accent-color-green: #B5DE8A;
 --hover-color:#7B61FF;
 }
 
@@ -171,7 +171,7 @@ opacity: 0;
 display: flex;
 width: 200px;
 align-items: center;
-margin: auto 2vw;
+margin: auto 2.5vw;
 animation: fadeIn .5s ease-in .18s forwards;
 opacity: 0;
 }
@@ -225,6 +225,11 @@ color: var(--text-color-black);
 .work h2{
   padding-bottom: 2rem;
 }
+
+.work__container{
+  max-width: fit-content;
+  margin: auto;
+}
 /* 
 img{
 width: 30vw;
@@ -236,12 +241,13 @@ justify-content: space-evenly;
 margin: 2rem;
 } */
 
+
 .column{
 justify-content: space-evenly;
 text-align: left;
 float: left;
 width: 50%;
-padding: 0rem 1rem;
+padding: 0rem 1.3rem;
 height: auto;
 }
 
@@ -281,7 +287,9 @@ text-align:center;
 
 
 /* INNER PAGES */
+
 .innerpage__heroimage{
+  
 display: block;
 margin: 0rem auto;
 padding: 0rem auto;
@@ -289,6 +297,7 @@ padding-bottom: 2rem;
 width:100%;
 -webkit-filter: drop-shadow( 0px 5px 5px rgba(0, 0, 0, 0.05));
 filter: drop-shadow( 0px 5px 5px  rgba(0, 0, 0, 0.05)) 
+
 }
 
 .innerpage__image{
@@ -296,6 +305,7 @@ display: block;
 margin: 0rem auto;
 padding: 1rem 0rem;
 width:100%;
+
 }
 
 .innerpage{
@@ -304,14 +314,26 @@ margin: auto 2rem;
 margin: 0 auto;
 margin-top:50px;
 max-width: 850px;
+animation: fadeIn .5s ease-in 0s forwards;
 /* margin-left:200px; */
 }
 
+/* .innerpage img {
+  animation: fadeIn .5s ease-in 0s forwards;
+}
+
+.innerpage h3 {
+  animation: fadeIn .5s ease-in .1s forwards;
+} */
+
 .innerpage__heading{
+ 
 margin-bottom:1rem;
+
 }
 .innerpage__text{
 margin: 1rem 0rem;
+/* animation: fadeIn .5s ease-in .05s forwards; */
 }
 .innerpage__text--listitem{
 font-family: Poppins, Georgia, serif;
@@ -327,7 +349,7 @@ margin-left: 1rem;
 footer{
 text-align: center;
 width:100%;
-padding-top: 48px;
+padding-top: 64px;
 padding-bottom: 48px;
 }
 
