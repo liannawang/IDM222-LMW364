@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reflectly Redesign</title>
+    <title>Admin Redesign</title>
     <link rel= "stylesheet" href="style.css"/>
     <link rel= "normalize" href="normalize.css"/>
+    <link rel="icon" href="pictures/purpleflower.svg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -30,42 +31,92 @@
  <main class="innerpage">
   <img src="pictures/admin/article hero.png" class="innerpage__heroimage" alt="Admin Prototype">
       
-  <p class="innerpage__text">Using Figma and After Effects, I rebranded and redesigned the micro interactions and design of the app Reflectly for my Interaction Design class.</p>
+  <h3 class="innerpage__subheading">Role and Timeline</h3>
+  <p class="innerpage__text">
+    As the UI/UX designer, I used Figma to redesign Perpay's admin across a five week period. </p>
 
-  <h3 class="innerpage__subheading">What is Reflectly?</h3>
-  <p class="innerpage__text">Reflectly is a personal journal driven by AI to help you deal with negative thoughts and increase positivity. Reflectly allows the user to vent their thoughts and feelings to improve their mood and practice mindfulness. The users write down how they feel each day in their own mood diary.</p>
-  <p class="innerpage__text">The goal of this project was to rebrand Reflectly and redesign the interface, key task (creating a journal entry), and micro-interactions to match the rebrand.</p>
+  <h3 class="innerpage__subheading">Context</h3>
+  <p class="innerpage__text">
+    The Admin tool is the backbone of the Operations team at Perpay; 
+    it allows the team to manage user accounts and carry out and oversee 
+    e-commerce processes. With the launch of new products like the Perpay Credit Card, it was imperative 
+    for the business to have an efficient Admin tool so that the new offerings 
+    could be launched smoothly.</p>
+  <p class="innerpage__text">
+    I was tasked with refreshing the user interface and experience of the Admin tool to not only 
+    <span class="bold pinkhighlight">make it more user-friendly</span>, but also <span class="bold pinkhighlight">ensure it 
+      serves the needs of the Operations team</span> as the company ramps up the credit card & 
+    pursues other product offerings.</p>
     
-  <h3 class="innerpage__subheading">Understanding the User</h3>
-  <p class="innerpage__text">NEEDS</p>
-    <ul>
-      <li class="innerpage__text--listitem">help deal with stress</li>
-      <li class="innerpage__text--listitem">practice mindfulness</li>
-      <li class="innerpage__text--listitem">reflect and put life into perspective</li>
-  </ul>
+  <h3 class="innerpage__subheading">Challenge</h3>
+  <p class="innerpage__challenge">To design a  <span class="bold pinkhighlight">product-scalable</span> and  <span class="bold pinkhighlight">in-scope</span> Admin that increases the Operations teams’ efficiency and ease of use.</p>
+  <p class="innerpage__text">Perpay’s existing admin was dated and unintuitive. Because the page length was so long, it was difficult for the Operations team to quickly scan through the pages to obtain information, and the amount of data loaded onto each page made it extremely slow and clunky.</p>
+  
 
-  <h3 class="innerpage__subheading">Rebranding Research</h3>
-  <p class="innerpage__text">After creating a user persona, I did my initial brainstorming on how I wanted to rebrand Reflectly's brand identity.</p>
-  <img src="pictures/reflectly/colors.PNG" class="innerpage__image" alt="reflectly colors">
-  <p class="innerpage__text">Since Reflectly's main purpose is to improve the user's mental state and stress levels, I wanted the interface's colors to feel calming and refreshing. After exploring color theory, I chose purples, greens, and blues because they are known to be relaxing colors.</p>
-  <img src="pictures/reflectly/reflectly typo.png" class="innerpage__image" alt="reflectly typography">
-  <p class="innerpage__text">Regarding typography, I wanted users to feel comfortable with the app, so I chose the font 210 Hayanpubil for its friendly and conversational look. </p>
-  <p class="innerpage__text">Lastly, I had to brainstorm some possible names for the new brand. Out of all the names I brainstormed, "Refresh" stood out to me because it felt representative of how I wanted the app to wash away the users' worries and refresh them.</p>
+  <!-- <div class="text__wrapper">
+    <div class="picturerow">
+        <div class="picturecolumn">
+            <img src="pictures/admin/oldvnew.png" class="aboutpicture">
+      </div>
+    <div class="picturecolumn">
+      <h3 class="innerpage__subheading">A quick look @ the solution</h3>
+      <ul>
+        <li><span class="bold pinkunderline">Less scrolling:</span> The redesign (right) maximizes the use of horizontal and vertical space with collapsible product summary cards and a side nav</li>
+        <li><span class="bold pinkunderline">Customizable workflow:</span> Ability to “favorite” tools and jump to links through the side nav saves Operations members' time </li>
+        <li><span class="bold pinkunderline">Product-scalable:</span> Components are standardized where possible, making product-scalability easy</li>
+        <li><span class="bold pinkunderline">Faster loading:</span> Fewer entries are loaded on page load - components include ability to “load more” entries if needed</li>
+      </ul>
+    </div>
+  </div> -->
+  
 
-  <h3 class="innerpage__subheading">Sketches</h3>
-  <p class="innerpage__text">Next, I began ideating the possible wireframes and microinteractions.</p>
-  <img src="pictures/reflectly/sketches bigger.jpg" class="innerpage__image" alt="reflectly sketches">
+  
+  <h3 class="innerpage__subheading">Using Agile Methodology</h3>
+  <img src="pictures/admin/process.png" class="innerpage__image ">
+  <p class="innerpage__text">This project spanned across a five week period using the agile framework. The team consisted of two Operations members, two engineers, one product manager, and me as the UI/UX designer.</p>
+  
+  
+  
+  <h3 class="innerpage__subheading">Understanding the User's Pain Points</h3>
+  <p class="innerpage__text">The product manager and I conducted a series of user interviews, testing, and surveys with the Operations members to better understand their main pain points.</p>
+  <div class="text__wrapper">
+    <div class="picturerow">
+        <div class="picturecolumn">
+            <img src="pictures/admin/oldvnew.png" class="aboutpicture">
+      </div>
+    <div class="picturecolumn">
+      <h3 class="innerpage__subheading">Here's what we found out:</h3>
+      <ul>
+        <li><span class="bold pinkunderline">Excessive page length:</span> Our users' number one pain point is the length of the page. Because their work relies on finding information at a glance, the unintuitive layout of the existing page adds on time to the users' tasks</li>
+        <li><span class="bold pinkunderline">Slow page load:</span> Because every customer support data point is loaded on the existing Admin page, the page takes up to 2-3 minutes to load. With hundreds of customers to help each day, these minutes add up and make the users' work inefficient.</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3 class="innerpage__subheading">Mid-Fidelity Wireframes</h3>
-  <p class="innerpage__text">To get a more accurate and detailed idea of the design, I created grayscale wireframes for every required page, mapping out the final page layouts.</p>
-  <img src="pictures/reflectly/midfi.png" class="innerpage__image" alt="reflectly mid fidelity wireframes">
+  <!-- <h3 class="innerpage__subheading">Ideation + Competitor Analysis</h3>
+  <img src="pictures/admin/process.png" class="innerpage__image ">
+  <p class="innerpage__text">This project spanned across a five week period using the agile framework. The team consisted of two Operations members, two engineers, one product manager, and me as the UI/UX designer.</p>
+   -->
 
-  <h3 class="innerpage__subheading">High Fidelity UI</h3>
-  <p class="innerpage__text">After putting the colors in, I created my High Fidelity wireframes.</p>
-  <img src="pictures/reflectly/hifi.png" class="innerpage__image" alt="reflectly high fidelity wireframes">
 
   <h3 class="innerpage__subheading">Final Prototype</h3>
-  <p class="innerpage__text">Lastly, I added microinteractions in AfterEffects.</p>
+  <img src="pictures/admin/light.png" class="innerpage__image ">
+  <div class="text__wrapper">
+    <div class="picturerow">
+        <div class="picturecolumn">
+            <img src="pictures/admin/oldvnew.png" class="aboutpicture">
+      </div>
+    <div class="picturecolumn">
+      <h3 class="innerpage__subheading">The Solution: Before & After</h3>
+      <ul>
+        <li><span class="bold pinkunderline">Less scrolling:</span> The redesign (right) maximizes the use of horizontal and vertical space with collapsible product summary cards and a side nav</li>
+        <li><span class="bold pinkunderline">Customizable workflow:</span> Ability to “favorite” tools and jump to links through the side nav saves Operations members' time </li>
+        <li><span class="bold pinkunderline">Product-scalable:</span> Components are standardized where possible, making product-scalability easy</li>
+        <li><span class="bold pinkunderline">Faster loading:</span> Fewer entries are loaded on page load - components include ability to “load more” entries if needed</li>
+      </ul>
+    </div>
+  </div>
+
   <!--figure out how to make this responsive-->
   <!-- <iframe width="320" height="570" src="https://www.youtube.com/embed/A9qYPifi07k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 </main>
